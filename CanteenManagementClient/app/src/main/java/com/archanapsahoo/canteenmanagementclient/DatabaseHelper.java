@@ -23,8 +23,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     private static final String COLUMN_UNAME = "uname";
     private static final String COLUMN_PASS = "pass";
     SQLiteDatabase db;
-    private static final String TABLE_CREATE = "create table contacts (id integer primary key not null, "+
-           "name text not null , email text not null , uname text not null, pass text not null); ";
+    private static final String TABLE_CREATE = "create table contacts (id integer primary key not null, name text not null , email text not null , uname text not null, pass text not null) ";
 
    /* public DatabaseHelper(MainActivity mainActivity) {
         super(mainActivity,DATABASE_NAME,null,DATABASE_VERSION);

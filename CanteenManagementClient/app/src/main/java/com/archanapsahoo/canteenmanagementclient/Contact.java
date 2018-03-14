@@ -5,10 +5,10 @@ package com.archanapsahoo.canteenmanagementclient;
  */
 
 public class Contact {
-   // int id;
+ //  int id;
     String name,email,phone,uname,pass;
 
-   /* public void setId(int id)
+ /*   public void setId(int id)
     {
         this.id = id;
     }
