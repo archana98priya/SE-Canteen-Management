@@ -22,7 +22,7 @@ public class AddFood extends AppCompatActivity {
         setContentView(R.layout.activity_add_food);
 
         name= (EditText) findViewById(R.id.itemName);
-        desc= (EditText) findViewById(R.id.itemPrice);
+        desc= (EditText) findViewById(R.id.itemDesc);
         price= (EditText) findViewById(R.id.itemPrice);
 
     }
@@ -37,10 +37,11 @@ public class AddFood extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
     {
        super.onActivityResult(requestCode,resultCode,data);
-       if(requestCode==GALLREQ && resultCode==RESULT_OK)
-           uri= data.getData();
-           foodImage=(ImageButton) findViewById(R.id.foodImageButton);
+       if(requestCode==GALLREQ && resultCode==RESULT_OK) {
+           uri = data.getData();
+           foodImage = (ImageButton) findViewById(R.id.foodImageButton);
            foodImage.setImageURI(uri);
+       }
 
     }
 
