@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "387038301822",
+    "firebase_url": "https://foodorderingapp-e2928.firebaseio.com",
+    "project_id": "foodorderingapp-e2928",
+    "storage_bucket": "foodorderingapp-e2928.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387038301822:android:2208def3bdc1bdde",
+        "android_client_info": {
+          "package_name": "com.example.aditi.clientfoodorderingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387038301822-uq4uh93u8i5pehp1gsp48ldh6vh11ks5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aditi.clientfoodorderingapp",
+            "certificate_hash": "7230096483bb1a75f5a97e69f4cc4a2bc3c258ba"
+          }
+        },
+        {
+          "client_id": "387038301822-5c1li8f1j6se4munf1usml5v1ntfcnge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlw5E_taJv2Dn69RlMgSh7EtinuRO8QGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387038301822-5c1li8f1j6se4munf1usml5v1ntfcnge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387038301822:android:9f26e0d1f9f7f7df",
+        "android_client_info": {
+          "package_name": "com.example.aditi.foodorderingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387038301822-u1fij23fi9dl4fubb3ctajpaku58uo7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aditi.foodorderingapp",
+            "certificate_hash": "7230096483bb1a75f5a97e69f4cc4a2bc3c258ba"
+          }
+        },
+        {
+          "client_id": "387038301822-5c1li8f1j6se4munf1usml5v1ntfcnge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlw5E_taJv2Dn69RlMgSh7EtinuRO8QGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387038301822-5c1li8f1j6se4munf1usml5v1ntfcnge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
