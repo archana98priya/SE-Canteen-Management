@@ -44,11 +44,6 @@ public class MainActivity extends AppCompatActivity {
                         String user_id = mAuth.getCurrentUser().getUid();
                         DatabaseReference current_user = mDatabase.child(user_id);
                         current_user.child("Name").setValue(email_text);
-                        Toast.makeText(MainActivity.this, "YOLO", Toast.LENGTH_SHORT).show();
-                    }
-                    else{
-                        FirebaseAuthException e = (FirebaseAuthException )task.getException();
-                        Toast.makeText(MainActivity.this, "Failed Registration: "+e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 }
             });
