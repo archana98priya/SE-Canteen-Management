@@ -1,5 +1,6 @@
 package com.example.aditi.clientfoodorderingapp;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -44,9 +45,18 @@ public class MainActivity extends AppCompatActivity {
                         String user_id = mAuth.getCurrentUser().getUid();
                         DatabaseReference current_user = mDatabase.child(user_id);
                         current_user.child("Name").setValue(email_text);
+
+                        Intent login = new Intent(MainActivity.this, LoginActivity.class);
+                        startActivity(login);
                     }
+
                 }
             });
         }
+    }
+
+    public void signinButtonClicked(View view){
+        Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(loginIntent);
     }
 }
